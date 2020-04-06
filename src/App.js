@@ -49,7 +49,7 @@ render() {
         <Chart data={data} country={country} /> 
         <hr/>
         <br/>
-        {/* <p className="copyright" >&copy; Mia Dugas Designs. Built in React.js Some Rights Reserved. Made with love.</p> */}
+        <p className={styles.copyright} >&copy; Mia Dugas Designs. Built in React.js Some Rights Reserved.</p>
     </div>
     
     );
