@@ -33,13 +33,25 @@ handleCountryChange = async (country) => {
 render() {
     const { data, country } = this.state;
 
+
+    
+    
+
+
+
+
+
     return (
     <div className={styles.container}>
         <img className={styles.image} src={image} alt="COVID-19" />
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} /> 
+        <hr/>
+        <br/>
+        {/* <p className="copyright" >&copy; Mia Dugas Designs. Built in React.js Some Rights Reserved. Made with love.</p> */}
     </div>
+    
     );
 }
 }
