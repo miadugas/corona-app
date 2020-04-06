@@ -49,7 +49,7 @@ render() {
         <Chart data={data} country={country} /> 
         <hr/>
         <br/>
-        <p className={styles.copyright} >&copy; Mia Dugas Designs. Built in React.js Some Rights Reserved.</p>
+        <p className={styles.copyright} >&copy; 2020 Mia Dugas Designs. Built in React.js Some Rights Reserved.</p>
     </div>
     
     );
