@@ -1,6 +1,6 @@
 # COVID-19 Tracker/Stats Application
 
-using React with Charts.js, Material UI and many different modules. The project fetchs the live data from the API using Async/Await syntax.
+Created using React with Charts.js, Material UI and many different modules. The project fetchs the live data from the API using Async/Await syntax.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
